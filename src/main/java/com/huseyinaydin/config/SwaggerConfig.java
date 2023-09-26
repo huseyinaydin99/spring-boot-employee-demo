@@ -16,7 +16,7 @@ public class SwaggerConfig {
 
     @Bean
     public Docket postsApi() {
-        return new Docket(DocumentationType.SWAGGER_2).groupName("Java Techie").apiInfo(apiInfo()).select()
+        return new Docket(DocumentationType.SWAGGER_2).groupName("Huseyin Aydin").apiInfo(apiInfo()).select()
                 .paths(regex("/api/employee.*")).build();
     }
 
